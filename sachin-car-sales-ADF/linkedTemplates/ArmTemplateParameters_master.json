@@ -8,6 +8,9 @@
 		"AzureSqlDatabase1_password": {
 			"value": ""
 		},
+		"ls_adls_bronze_accountKey": {
+			"value": ""
+		},
 		"ls_azureSQLDB_password": {
 			"value": ""
 		},
@@ -19,6 +22,9 @@
 		},
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"value": "sachinbb7"
+		},
+		"ls_adls_bronze_properties_typeProperties_url": {
+			"value": "https://sachincarsales.dfs.core.windows.net/"
 		},
 		"ls_azureSQLDB_properties_typeProperties_server": {
 			"value": "sachin-car-sales-server.database.windows.net"

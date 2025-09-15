@@ -11,6 +11,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'AzureSqlDatabase1'"
 		},
+		"ls_adls_bronze_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'ls_adls_bronze'"
+		},
 		"ls_azureSQLDB_password": {
 			"type": "secureString",
 			"metadata": "Secure string for 'password' of 'ls_azureSQLDB'"
@@ -26,6 +30,10 @@
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"type": "string",
 			"defaultValue": "sachinbb7"
+		},
+		"ls_adls_bronze_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://sachincarsales.dfs.core.windows.net/"
 		},
 		"ls_azureSQLDB_properties_typeProperties_server": {
 			"type": "string",
@@ -73,6 +81,9 @@
 					"AzureSqlDatabase1_password": {
 						"value": "[parameters('AzureSqlDatabase1_password')]"
 					},
+					"ls_adls_bronze_accountKey": {
+						"value": "[parameters('ls_adls_bronze_accountKey')]"
+					},
 					"ls_azureSQLDB_password": {
 						"value": "[parameters('ls_azureSQLDB_password')]"
 					},
@@ -84,6 +95,9 @@
 					},
 					"AzureSqlDatabase1_properties_typeProperties_userName": {
 						"value": "[parameters('AzureSqlDatabase1_properties_typeProperties_userName')]"
+					},
+					"ls_adls_bronze_properties_typeProperties_url": {
+						"value": "[parameters('ls_adls_bronze_properties_typeProperties_url')]"
 					},
 					"ls_azureSQLDB_properties_typeProperties_server": {
 						"value": "[parameters('ls_azureSQLDB_properties_typeProperties_server')]"
