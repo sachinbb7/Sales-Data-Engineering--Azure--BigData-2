@@ -1,0 +1,16 @@
+{
+	"name": "SalesAzureSqlTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azureSQLDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "car_sales"
+		}
+	}
+}
