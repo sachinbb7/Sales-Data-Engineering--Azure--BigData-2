@@ -199,7 +199,10 @@
 				"outputs": [
 					{
 						"referenceName": "SalesAzureSqlTable",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"table_name": "car_sales"
+						}
 					}
 				]
 			}
