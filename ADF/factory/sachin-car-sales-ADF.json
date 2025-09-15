@@ -1,0 +1,9 @@
+{
+	"name": "sachin-car-sales-ADF",
+	"location": "southindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "77c59086-c3c7-482c-8037-5cd1846a44e7",
+		"tenantId": "3e7a60e7-389d-4de9-8178-93c9598c0263"
+	}
+}
