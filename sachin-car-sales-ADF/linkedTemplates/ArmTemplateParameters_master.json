@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sachin-car-sales-ADF"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"ls_azureSQLDB_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sachin-car-sales-server.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "car-sales"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "sachinbb7"
+		},
+		"ls_azureSQLDB_properties_typeProperties_server": {
+			"value": "sachin-car-sales-server.database.windows.net"
+		},
+		"ls_azureSQLDB_properties_typeProperties_database": {
+			"value": "car-sales"
+		},
+		"ls_azureSQLDB_properties_typeProperties_userName": {
+			"value": "sachinbb7"
+		},
+		"ls_github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/sachinbb7/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
