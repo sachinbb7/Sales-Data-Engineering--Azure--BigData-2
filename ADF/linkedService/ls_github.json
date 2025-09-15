@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://github.com/sachinbb7/",
+			"url": "https://raw.githubusercontent.com/sachinbb7/",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
